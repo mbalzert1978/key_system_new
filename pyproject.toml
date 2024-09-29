@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "key-system-new"
+version = "0.1.0"
+description = ""
+authors = ["mbalzert1978 <teilen-01-koralle@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.6.8"
+pytest = "^8.3.3"
+mypy = "^1.11.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
